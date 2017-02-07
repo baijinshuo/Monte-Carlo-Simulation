@@ -1,2 +1,4 @@
 # Monte-Carlo-Simulation
-Using Monto Carlo method to simulate stock price and option price in VBA. Try to verify BS formula by comparing the option prices.
+Used Monte Carlo method to generate stock price paths based on jump-diffusion model.
+Used the simulator to forecast option value. Discovered when iterate more than 10,000,000 times, the simulated result is quite close to Black-Scholes option value. The rate of convergence is not as good as the Newton method.
+
